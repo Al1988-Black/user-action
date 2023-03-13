@@ -1,0 +1,21 @@
+@import "@blueprintjs/table/lib/css/table.css";
+@import "@blueprintjs/core/lib/css/blueprint.css";
+@import "@blueprintjs/popover2/lib/css/blueprint-popover2.css";
+@import "@blueprintjs/select/lib/css/blueprint-select.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.action {
+    &__list {
+        width: 80%;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    &__search {
+        margin: 20px 0;
+    }
+}
